@@ -42,7 +42,7 @@ li a {
 }
 
 p {
-  font-size: 20px;
+  font-size: 18px;
 	margin: 0;
 }
 
@@ -64,4 +64,16 @@ div {
 .content {
   border-radius: 5px;
   background-color: #E3CF6D;
+  opacity: 1;
+  padding-bottom: 3px
+}
+
+.page-container{
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.content-wrap{
+  flex: 1;
 }

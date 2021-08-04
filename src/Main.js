@@ -5,15 +5,18 @@ import {
   NavLink,
   HashRouter
 } from "react-router-dom";
+import Footer from "./Footer";
 import Home from "./Home";
-import Contact from "./Contact"
-import About from "./About"
+import Contact from "./Contact";
+import About from "./About";
  
 class Main extends Component {
   render() {
     return (
-      <HashRouter>
-        <div>
+      <div className="page-container">
+      <div className="content-wrap">
+        <HashRouter>
+
           <center>
           <h1>Plano Bees</h1>
           </center>
@@ -23,13 +26,17 @@ class Main extends Component {
             <li><NavLink to="/contact">Contact</NavLink></li>
             <li><NavLink to="/about">About</ NavLink></li>
           </ul>
+
           <div className="content">
-            <Route exact path="/" component={Home}/>
+            <Route exact path="/"component={Home}/>
             <Route path="/contact" component={Contact}/>
             <Route path="/about" component={About}/>
           </div>
-        </div>
-      </HashRouter>
+
+        </HashRouter>
+      </div>
+      <Footer />
+      </div>
     );
   } 
 }

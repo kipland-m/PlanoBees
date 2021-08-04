@@ -1,0 +1,35 @@
+.main-footer{
+	background-color: #E3CF6D;
+	display: flex;
+	border-radius: 5px;
+	justify-content: center;
+}
+
+
+.col{
+	float: left;
+	text-align: center;
+	font-size: 11px;
+
+}
+.col-sm{
+	display: flex;
+	justify-content: center;
+	padding-left: 3px;
+	padding-top: 10px;
+	font-size: 10px;
+	bottom: 0;
+}
+
+li {
+	padding-left: 3px;
+}
+
+ul{
+	font-size: 5;
+}
+
+h3 {
+	font-family: sans-serif;
+
+}
