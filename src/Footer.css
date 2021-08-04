@@ -21,8 +21,15 @@
 	bottom: 0;
 }
 
+.inputBox{
+	opacity: 20%;
+	color: #D1BB4B;
+	width: 70%;
+}
+
 li {
 	padding-left: 3px;
+	padding-bottom: 10px;
 }
 
 ul{

@@ -1,4 +1,9 @@
 import React, { Component } from "react";
+import {
+  Route,
+  NavLink,
+  HashRouter
+} from "react-router-dom";
 import "./Footer.css"
 class Footer extends Component {
   render() {
@@ -18,9 +23,10 @@ class Footer extends Component {
 					<div className="col">
 						<h3>Newsletter</h3>
 						<ul className="list-unstyled">
-							<li>270-635-7488</li>
-							<li>Madisonville, KY</li>
-							<li>9299 Glascow Street</li>
+						<div className="inputBox">
+						<input type="text" id="userEmail" name="userEmail"></input>
+						</div>
+						<input type="submit" value="Sign up!"></input>
 						</ul>
 					</div>
 				{/* Column 3 */}
