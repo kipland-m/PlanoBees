@@ -8,6 +8,13 @@ h1, h2, p, ul{
 	font-family: sans-serif;
 }
 
+/*page-block controls the background block behind page contents*/
+.page-block{
+  display: block;
+  background: lightgray;
+  border-radius: 5px;
+}
+
 h1 {
   background-color: #E3CF6D;
 	width: 300px;
@@ -47,7 +54,6 @@ p {
 }
 
 p1 {
-  padding-left: 0px;
   font-family: sans-serif;
 }
 
@@ -58,7 +64,8 @@ p2 {
 }
 
 div {
-  padding-left: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .content {
