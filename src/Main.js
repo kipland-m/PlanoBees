@@ -16,12 +16,14 @@ class Main extends Component {
       <div className="page-container">
       <div className="content-wrap">
         <HashRouter>
-
-          <div className="page-block">
-
           <center>
+          <div className="header-border">
           <h1>Plano Bees</h1>
+          </div>
           </center>
+
+          <div className="white-border">
+          <div className="page-block">
 
           <ul className="header">
             <li><NavLink to="/">Home</NavLink></li>
@@ -33,6 +35,7 @@ class Main extends Component {
             <Route exact path="/"component={Home}/>
             <Route path="/contact" component={Contact}/>
             <Route path="/about" component={About}/>
+          </div>
           </div>
           </div>
         </HashRouter>

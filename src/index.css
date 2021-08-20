@@ -8,26 +8,41 @@ h1, h2, p, ul{
 	font-family: sans-serif;
 }
 
+.header-border{
+  background-color: white;
+  border-radius: 25px;
+  padding: 5px;
+}
+.white-border{
+  background-color: white;
+  padding: 5px;
+  border-radius: 5px;
+}
+
 /*page-block controls the background block behind page contents*/
 .page-block{
   display: block;
-  background: lightgray;
   border-radius: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  height: 650px;
+  background-color: rgba(209,187,75,1); /* 0.1 alpha = 10% opacity*/
 }
 
 h1 {
   background-color: #E3CF6D;
 	width: 300px;
   border-radius: 25px;
-	padding: 20px;
+	padding: 15px;
 	margin: 20px;
 }
 
 /*Navbar*/
 ul {
   list-style-type: none;
-  margin: 0;
-  padding: 0;
+  margin: 0px;
+  padding: 0px;
   border-radius: 5px;
   overflow: hidden;
   background-color: #E3CF6D;
@@ -63,8 +78,7 @@ p2 {
 
 }
 
-div {
-  padding-left: 10px;
+.page-body{
   padding-right: 10px;
 }
 
