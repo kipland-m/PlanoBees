@@ -9,6 +9,7 @@ import Footer from "./Footer";
 import Home from "./Home";
 import Contact from "./Contact";
 import About from "./About";
+import Privacy from "./Privacy";
  
 class Main extends Component {
   render() {

@@ -25,8 +25,8 @@ class Footer extends Component {
 						<ul className="list-unstyled">
 						<div className="inputBox">
 						<input type="text" id="userEmail" name="userEmail"></input>
+						<input type="submit" id="signUpButton" value="Sign up!"></input>
 						</div>
-						<input type="submit" value="Sign up!"></input>
 						</ul>
 					</div>
 				{/* Column 3 */}

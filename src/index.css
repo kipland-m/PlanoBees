@@ -9,14 +9,16 @@ h1, h2, p, ul{
 }
 
 .header-border{
-  background-color: white;
+  background-color: rgba(255,255,255,0.5);
   border-radius: 25px;
-  padding: 5px;
+  width: 375px;
+  padding: 0px;
 }
 .white-border{
   background-color: white;
   padding: 5px;
   border-radius: 5px;
+  background-color: rgba(255,255,255,0.5);
 }
 
 /*page-block controls the background block behind page contents*/
@@ -79,7 +81,8 @@ p2 {
 }
 
 .page-body{
-  padding-right: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
 }
 
 .content {

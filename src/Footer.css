@@ -3,6 +3,7 @@
 	display: flex;
 	border-radius: 5px;
 	justify-content: center;
+	padding-bottom: 30px;
 }
 
 
@@ -10,6 +11,7 @@
 	float: left;
 	text-align: center;
 	font-size: 11px;
+	padding-right: 5px;
 
 }
 .col-sm{
@@ -23,13 +25,19 @@
 
 
 input{
-	opacity: 70%;
+	opacity: 100%;
 	background-color: #D1BB4B;
 	border-radius: 5px;
 }
+#userEmail{
+	width: 100px;
+}
+#signUpButton{
+	float: right;
+}
 
 li {
-	padding-left: 10px;
+	padding: 5px;
 }
 
 ul{

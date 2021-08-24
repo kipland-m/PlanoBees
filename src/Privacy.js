@@ -3,7 +3,7 @@ import React, { Component } from "react";
 class Home extends Component {
   render() {
     return (
-      <div className="page-body">
+      <div>
         <h2>About Us</h2>
         <p>This is the about page.</p>
  
