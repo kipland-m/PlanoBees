@@ -10,6 +10,7 @@ class Footer extends Component {
     return (
 	<div className="main-footer">
 		<div className="row">
+		<HashRouter>
 				{/* Column 1 */}
 					<div className="col">
 						<h3>Plano Bees</h3>
@@ -42,11 +43,13 @@ class Footer extends Component {
 				<div className="arr">
 					<p className="col-sm">
 					<center>
+						<NavLink to="/privacy">
 						&copy;{new Date().getFullYear()} Plano Bees | All Rights Reserved | Privacy
+						</NavLink>
 					</center>
 					</p>
 				</div>
-
+				</HashRouter>
 			</div>
 		</div>
     );

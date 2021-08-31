@@ -36,6 +36,7 @@ class Main extends Component {
             <Route exact path="/"component={Home}/>
             <Route path="/contact" component={Contact}/>
             <Route path="/about" component={About}/>
+            <Route path="/privacy" component={Privacy}/>
           </div>
           </div>
           </div>
